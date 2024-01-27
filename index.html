@@ -295,8 +295,8 @@
             if (totalQuestions >= 20)
             {
                 var quickDASHscore = totalScore;
-                document.getElementById("result").innerHTML = "Thank you very much for completing all the questions in this survey.<br><br>Please do not close this page, and write your score on the card, then hand it to the physiothearpist.<br><br> Your score is: " + Math.round(quickDASHscore) + "/80";
-                var popup = showPopup("Thank you very much for completing all the questions in this survey.<br><br>Please do not close this page, and write your score on the card, then hand it to the physiothearpist.<br><br> Your score is: " + Math.round(quickDASHscore) + "/80");
+                document.getElementById("result").innerHTML = "Thank you very much for completing all the questions in this survey.<br><br>Please do not close this page, and write your score on the card, then hand it to the physiotherapist.<br><br> Your score is: " + Math.round(quickDASHscore) + "/80";
+                var popup = showPopup("Thank you very much for completing all the questions in this survey.<br><br>Please do not close this page, and write your score on the card, then hand it to the physiotherapist.<br><br> Your score is: " + Math.round(quickDASHscore) + "/80");
             } else {
                 document.getElementById("result").innerHTML = "You still have " + (20 - totalQuestions)+ " questions unanswered.<br>";
 				var popup = showPopup("You still have " + (20 - totalQuestions)+ " questions unanswered.<br>Please go back and continue answering.");
